@@ -16,7 +16,7 @@ class ZhiSshu:
                 print(i)
             i += 1
         t2 = time()
-        print('��ʱ:',t2-t1,'��')
+        print('耗时:',t2-t1,'秒')
 
 
     def func2(self):
@@ -34,7 +34,7 @@ class ZhiSshu:
                 print(i)
             i += 1
         t4 = time()
-        print('��ʱ:',t4-t3,'��')
+        print('耗时:',t4-t3,'秒')
 
 
     def func3(self):
@@ -52,7 +52,7 @@ class ZhiSshu:
                 break
             i += 1
         t6 = time()
-        print('��ʱ:',t6-t5,'��')
+        print('耗时:',t6-t5,'秒')
 
 z = ZhiSshu()
 # z.func1()
